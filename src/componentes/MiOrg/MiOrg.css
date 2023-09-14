@@ -1,0 +1,41 @@
+.orgSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: #6278F7;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 24px;
+    border-bottom: 4px solid #6278F7;;
+}
+
+.orgSection img{
+    position: absolute;
+    right:30%;
+    cursor: pointer;
+    
+}
+@media screen and (min-width:300px ){
+    .orgSection {
+            display: flex;
+            box-sizing: border-box;
+            padding: 42px;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+    }
+        .orgSection img {
+            position: absolute;
+            top: 25%; left: 180px;
+            
+        }
+}
+@media screen and (min-width: 980px){
+.orgSection img {
+        position: absolute;
+        top: 70%; left: 680px;
+    }
+}
